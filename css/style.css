@@ -1,0 +1,73 @@
+
+.education_item.wow.fadeInUp.animated::after{
+border-top:  solid 23px rgb(40, 117, 218) !important;
+}
+.myskill_area .skill_item_inner .single_skill .progress {
+    margin-bottom: 15px;
+    height: 13px;
+    border-radius: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(40, 117, 218) !important;
+    width: 75%;
+    display: inline-block;
+}
+.myskill_area .skill_item_inner .single_skill .progress .progress-bar{
+    background: rgb(40, 117, 218) !important;
+}
+span.exprience-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: calc(50% - 20px);
+    background: rgb(40, 117, 218) !important;
+    border-radius: 50%;
+    font-size: 17px;
+    line-height: 42px;
+    top: -25px;
+    color: white;
+}
+#portfolio .portfolio_title {
+    border: rgb(40, 117, 218) !important;
+}
+label.date::before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 14px;
+    background: rgb(40, 117, 218) !important;
+    left: 50%;
+    top: -10px;
+}
+.service_area .service_inner .service_item i {
+    height: 62px;
+    width: 62px;
+    line-height: 60px;
+    border-radius: 24%;
+    font-size: 30px;
+    color: rgb(40, 117, 218) !important;
+    right: calc(50% - 31px);
+    top: -37px;
+    position: absolute;
+    transition: all 400ms linear 0s;
+}
+.service_area .service_inner .service_item {
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 40px;
+    background: rgba(255, 255, 253, 0.9);
+    border: 1px solid rgb(40, 117, 218) !important;
+    padding: 0px 25px;
+    min-height: 126px;
+}
+#project .date {
+    transform: inherit;
+    background: rgb(40, 117, 218) !important;
+    top: 9px;
+    box-shadow: initial;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+}
